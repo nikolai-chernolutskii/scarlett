@@ -1,0 +1,44 @@
+.side-nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+    &__content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $color-primary;
+
+        &--logo img {
+            width: calc(3vw + 3vh);
+
+            object-fit: cover;
+        }
+
+        &--social {
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-end;
+           align-items: center;
+
+           a i {
+            //    We want the base size of the font to be 20px => 2rem. Therefore, we set 1rem as the minimum font size (to avoid making the font too small on small screens) + the relevant % at max body vw (1510px) => {1rem + [(10/1510) * 100]} => Dynamic Value
+               font-size: calc(1rem + .6623vw);
+               color: $color-white;
+               transition: color .35s;
+               
+               &:hover,
+               &:active {
+                   color: $color-secondary;
+                }
+            }
+        }
+        
+        .social__list-item {
+            padding-bottom: calc(1rem + .6623vw);
+        }
+    }
+}

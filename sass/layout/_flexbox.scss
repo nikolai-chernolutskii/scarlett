@@ -1,0 +1,8 @@
+body {
+    display: flex;
+}
+
+/* All content container => main element - stretched to occupy the remaining space */
+main {
+    flex: 1;
+}

@@ -1,0 +1,136 @@
+@keyframes hero {
+    0% {
+        transform: translateX(100rem) rotate(360deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 0.7;
+    }
+}
+
+@keyframes progress-1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progress-2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes progress-3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes progress-4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes progress-6 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progress-7 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes progress-8 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+
+// @keyframes moveInLeft {
+//     0% {
+//         opacity: 0;
+//         transform: translateX(-10rem);
+//     }
+
+//     80% {
+//         transform: translateX(1rem);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
+
+// @keyframes moveInRight {
+//     0% {
+//         opacity: 0;
+//         transform: translateX(10rem);
+//     }
+
+//     80% {
+//         transform: translateX(-1rem);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
+
+// @keyframes moveInBottom {
+//     0% {
+//         opacity: 0;
+//         transform: translateY(3rem);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }

@@ -1,0 +1,96 @@
+body {
+    font-family: "Baloo Tamma 2", cursive;
+    line-height: 1.8;
+}
+
+.heading-primary {
+    font-size: calc(2rem + 3vw);
+    color: $color-white;
+}
+
+.heading-secondary {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: $color-white;
+    // font-weight: 700;
+    // display: inline-block;
+    // letter-spacing: 0.2rem;
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    text-transform: uppercase;
+    // font-weight: 700;
+
+    @include respond(tab-port) {
+        font-size: calc(1.2rem + 2vw);
+    }
+}
+
+.heading-quaternary {
+    font-size: 2rem;
+    color: $color-white;
+}
+
+.paragraph,
+.contact__form input,
+.contact__form textarea {
+    font-family: "Indie Flower", cursive;
+}
+
+.showcase__content--para {
+    font-size: calc(1.5rem + 1vw);
+    color: $color-white;
+}
+
+.about__content--para {
+    font-size: 1.8rem;
+}
+
+.services__para {
+    font-size: 2rem;
+}
+
+.testimonials__card--content__para,
+.contact__form input,
+.contact__form textarea {
+    font-size: 1.5rem;
+}
+
+.showcase__content--link,
+.about__content--link {
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+}
+
+.about__content--title,
+.about__content--para {
+    letter-spacing: 0.2rem;
+}
+
+.service i {
+    font-size: 3rem;
+}
+
+.service i,
+.services__para {
+    color: $color-white;
+}
+
+
+@include respond(tab-port) {
+    .services__para,
+    .skills__set h4,
+    .testimonials__card--content__para {
+        font-size: calc(0.8rem + 1.5vw);
+    }
+}
+
+.contact__form input,
+.contact__form textarea {
+    letter-spacing: 0.2rem;
+}
